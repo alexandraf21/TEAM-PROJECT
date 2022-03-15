@@ -1,0 +1,248 @@
+html, body {
+  width: auto;
+  height: auto;
+ }
+
+body {
+    background-color: #b4f3f3;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+  }
+
+  #logo{
+        float: left;
+        padding: 20px; 
+        width: 75px;
+        height: 300px;
+        object-fit: contain;
+     
+  }
+
+  #topnavbar {
+    float: right;
+    display: block;
+    padding: 8px;
+    background-color: #b4f3f3;
+    color: white;
+    font-family: "Trirong", serif;
+  }
+
+  #topnavbar a:hover {
+    background-color: rgba(0, 0, 0, 0.349);
+  } 
+
+  .active{
+    background-color: blue;
+}
+
+  h1 {
+    color: rgb(236, 146, 191);
+    font-family: "Trirong", serif; 
+    text-align: center;
+    font-size: 65px;
+  }
+
+  #intropic {
+      float: right;
+  }
+
+  p 
+  { color: black;
+    font-family: "Trirong", serif;
+    text-align: center, justify;
+    font-size: 20px;
+    font-style: bold;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+    font-family: "Trirong", serif;
+  }
+
+  .flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+
+  .recipelink {
+    font-size: 20px;
+    font-family: "Trirong", serif;
+    color: red;
+    text-align: justify;
+  }
+
+
+   .recipelink a:hover {
+    background-color: #a1aa9b;
+   }
+
+   h2 {
+     background-color: white;
+     font-size: 30px;
+     color: black;
+     font-family: "Trirong", serif;
+     border-style: solid;
+     border-color: rgb(236, 146, 191);
+     border-width: 7px;
+   }
+
+  
+
+  
+  h3{ 
+    color: black;
+    font-family: "Trirong", serif;
+    font-size: 30px;
+  }
+
+  label{
+    color: black;
+    font-family: "Trirong", serif;
+    font-size: 17px;
+  }
+
+  button{
+    color: black;
+    font-family: "Trirong", serif;
+    font-size: 12px;
+  }
+
+
+  #ingredients{
+    color: black;
+    font-style: italic;
+    font-family: "Trirong", serif;
+    font-size: 20px;
+  }
+
+  h4{
+    color: black;
+    font-style:  bold;
+    font-family: "Trirong", serif;
+    font-size: 25px;
+  }
+
+  main{
+    color: red;
+  }
+
+
+.contactbutton {
+  background-color: #86f4f8;  
+  border:rgba(0, 0, 0, 0.349);
+  border-style:ridge;
+  color: rgb(236, 146, 191);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Trirong", serif;
+  }
+
+
+#usefullinks {
+  color: #444941;
+  font-family: "Trirong", serif;
+  font-size: 20px;
+}
+
+#usefullinks a:hover {
+  background-color: #a1aa9b;
+}
+
+#bottomnav {
+float: left;
+    padding: 20px; 
+    width: 150px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.dropbtn {
+  background-color: #b4f3f3;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family: "Trirong", serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(236, 146, 191);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Trirong", serif;
+}
+
+.dropdown-content a:hover {background-color: pink;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #dd1199;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+footer {
+  background-image: url("background.png");
+}
+
+.food{
+  width:45%;
+}
+
+.border{
+  border-color: #86f4f8;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+}
